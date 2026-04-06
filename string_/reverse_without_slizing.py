@@ -1,17 +1,19 @@
 a=  "qoloi"
 
-# # by  for  loop  
-# reversed_word =  ""
-# for char_  in  range(len(a)-1,  -1, -1  ):
-#     reversed_word+= a[char_]
+# by  for  loop  
+reversed_word =  ""
+for char_  in  range(len(a)-1,  -1, -1  ):
+    reversed_word+= a[char_]
 
-# print(reversed_word)
+print(reversed_word)
 
-# # by  python  prebuild  method 
-# reverse_a =   reversed(a)
+# by  python  prebuild  method 
+reverse_a =   reversed(a)
 
-# str_a =   ''.join(reverse_a)
+str_a =   ''.join(reverse_a)
 # print(str_a)
+
+# reverse using  recursion 
 
 
 def   reverse_word(word ):
